@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="utiliy.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img class="svg-logo" src="./assest/logo.svg" alt="logo" />
+        <img class="svg-logo h-logo" src="./assest/homeLogo.svg" alt="home" />
+      </div>
+      <div class="song-search">
+        <img src="./assest/search.svg" alt="search" class="search svg-logo" />
+        <input
+          class="search-box"
+          type="search"
+          placeholder="What do you want to play?"
+        />
+        <img
+          class="svg-logo browser-lg"
+          src="./assest/browser.svg"
+          alt="browser"
+          class="svg-logo"
+        />
+      </div>
+      <div class="signup-login">
+        <div class="sign-up">Sign up</div>
+        <div class="login">log in</div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="part-1">
+        <section class="library">
+          <div class="library-heading">
+            <img src="./assest/library.svg" alt="library" class="svg-logo" />
+            <span>Your Library</span>
+            <img src="./assest/close 2.svg" alt="close" class="close cursor">
+          </div>
+          <div class="all-divs">
+            <div class="songList">
+              <ul></ul>
+            </div>
+
+            <div class="create-p-list box">
+              <div class="t1">Create your first playlist</div>
+              <div class="t2">It's easy,we'll help you</div>
+              <button class="btn">Create playlist</button>
+            </div>
+            <div class="podcaste box">
+              <div class="t1">Let's find some podcaste to follow</div>
+              <div class="t2">we'll keep you updated on new episodes</div>
+              <button class="btn">Browser podcaste</button>
+            </div>
+            <footer class="cookies">
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                >cookies</a
+              >
+              <div class="english">
+                <img src="./assest/world.svg" alt="" class="svg cursor" />
+                <span>English</span>
+              </div>
+            </footer>
+          </div>
+        </section>
+        <section class=""></section>
+      </div>
+      <div class="part-2">
+        
+        <div class="spotify-playlist">
+          <div class="top">
+            <img src="./assest/menu-01-stroke-rounded.svg" alt="" class="cursor" id="menu">
+            <h1>Trending Songs</h1></div>
+          
+          <div class="cards-container">
+          </div>
+
+          <div class="playbar">
+            <div class="seek-bar cursor">
+              <div class="circle"></div>
+            </div>
+            <div class="play-bar">
+              <div class="song-duration ">00:00/00:00</div>
+              <div class="songInfo c-width">dheere dheere se meri zindagi me aana</div>
+              <div class="music-control c-width">
+                <img
+                  src="./assest/previous.svg"
+                  alt="previous"
+                  id="previous"
+                  class="previos cursor h-20"
+                />
+                <img
+                  src="./assest/play.svg"
+                  alt="play"
+                  id="play"
+                  class="play cursor h-20"
+                />
+                <img
+                  src="./assest/next.svg"
+                  alt="next"
+                  id="next"
+                  class="next cursor h-20"
+                />
+              </div>
+              <div class="volume c-width">
+                <img
+                  src="./assest/volume-up.svg"
+                  alt="volume"
+                  class="volume-svg cursor"
+                />
+                <input type="range" id="volumeControl" class="cursor" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
+
