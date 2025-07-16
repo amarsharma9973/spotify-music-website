@@ -58,7 +58,7 @@ const currentSong = new Audio();
 
 function playSong(gana,pause=false){
   // let audio = new Audio("/spotify/Songs/" + gana);
-  currentSong.src = `/spotify/${currFolder}/` + gana;
+  currentSong.src = `./${currFolder}/` + gana;
   if(!pause){   
     currentSong.play()
    play.src = "./assest/pause.svg"
